@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.44de8e19.css",
+    "main.js": "./static/js/main.c0e6534d.js",
+    "static/media/confetti-birthday-svgrepo-com.svg": "./static/media/confetti-birthday-svgrepo-com.7beb4f3fc9131e27382e.svg",
+    "static/media/present-with-star-gift-svgrepo-com.svg": "./static/media/present-with-star-gift-svgrepo-com.8acaff39f2ea8a513a0b.svg",
+    "static/media/confetti-ball-svgrepo-com.svg": "./static/media/confetti-ball-svgrepo-com.1126f530ee1a1463c7d8.svg",
+    "static/media/gift-svgrepo-com.svg": "./static/media/gift-svgrepo-com.b453234104cc50cf7d1c.svg",
+    "index.html": "./index.html",
+    "main.44de8e19.css.map": "./static/css/main.44de8e19.css.map",
+    "main.c0e6534d.js.map": "./static/js/main.c0e6534d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44de8e19.css",
+    "static/js/main.c0e6534d.js"
+  ]
+}
