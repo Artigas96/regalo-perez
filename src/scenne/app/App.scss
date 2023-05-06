@@ -1,0 +1,101 @@
+.all-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+
+}
+
+.btn {
+  .btn-custom {
+    background: rgb(81, 90, 218);
+    background: linear-gradient(90deg, rgb(239, 213, 255) 0%, rgb(81, 90, 218) 100%);
+  }
+}
+
+.tracking-out-contract {
+  -webkit-animation: tracking-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: tracking-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+
+@keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+
+.btn-chrismas {
+  background-color: #0F8A5F !important;
+  color: white !important;
+}
+
+.img-bg {
+  background: 
+    url('../../assets/svg/present-with-star-gift-svgrepo-com.svg') top 35px left 30px /20% no-repeat,
+    url('../../assets/svg/confetti-ball-svgrepo-com.svg') top 35px right 35px/20% no-repeat,
+    url('../../assets/svg/gift-svgrepo-com.svg') bottom 35px left 35px/20% no-repeat,
+    url('../../assets/svg/confetti-birthday-svgrepo-com.svg') bottom 35px right 35px/20% no-repeat,
+  ;
+}
+
